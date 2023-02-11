@@ -22,8 +22,8 @@
 > docker run -p 8010:80 --name server0 --rm -v "C:\Users\henry\docker\nginx\nginx\default.conf":/etc/nginx/conf.d/default.conf --network youtube nginx
 
 # para probar:
-[link](http://localhost:8010) `` balanceador ``
-[link](http://localhost:8010/serv2) `` siempre va al servidor2 ``
-[link](http://localhost:8011) `` server1 ``
-[link](http://localhost:8012) `` server2 ``
-[link](http://localhost:8013) `` server3 ``
+* [balanceador](http://localhost:8010)
+* [balanceador siempre a servidor2](http://localhost:8010/serv2)
+* [servidor1](http://localhost:8011)
+* [servidor2](http://localhost:8012)
+* [servidor3](http://localhost:8013)
